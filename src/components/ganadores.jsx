@@ -60,6 +60,7 @@ function Ganadores() {
                     onChange={(e) => setPremio(e.target.value)}
                     placeholder="Ingresa el premio"
                 />
+                <button type="submit">Registrar Premio</button>
             </form>
         </div>
     );

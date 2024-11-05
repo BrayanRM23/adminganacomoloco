@@ -68,7 +68,6 @@ function AdminHome() {
             {/* Botones para añadir admin y registrar premio */}
             <div className="admin-actions">
                 <button onClick={() => navigate("/crearusers")}>Añadir Admin</button>
-                <button onClick={() => navigate("/ganadores")}>Registrar Premio</button>
             </div>
         </div>
     );
